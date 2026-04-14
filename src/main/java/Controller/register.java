@@ -21,7 +21,7 @@ public class register extends HttpServlet{
 		
 		try {
 			Connection con = connection.getCon();
-			String sql = "INSERT INTO users (fullName, rollNo, email, password) VALUES (?, ?, ?, ?)";
+			String sql = "INSERT INTO users (full_name, roll_no, email, password) VALUES (?, ?, ?, ?)";
 			PreparedStatement ps = con.prepareStatement(sql);
 			ps.setString(1, fullName);
 			ps.setString(2, rollNo);
