@@ -8,8 +8,8 @@ public class connection {
 	public static Connection getCon() throws ClassNotFoundException {
 		        
 		String url = "jdbc:postgresql://localhost:5432/LoginModule";
-		String username = "postgres";
-		String password = "06032006";
+		String username = "your_username";
+		String password = "your_password";
 
 			
 		Connection con = null;
